@@ -1,7 +1,7 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+
 import { Cabecera } from './Ejercicios/Ejercicio1.ts'
 import { Calculadora } from './Ejercicios/Ejercicio2.ts'
 import { Cancion } from './Ejercicios/Ejercicio3.ts'
@@ -55,5 +55,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </p>
   </div>
 `
-
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
